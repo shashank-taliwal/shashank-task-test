@@ -1,4 +1,4 @@
 repoPath: shashank-taliwal/shashank-task-test
 mainBranch: main
 gitIntegration: shashank_git_int
-artIntegration: test_nishith
+artIntegration: entplus_deployer

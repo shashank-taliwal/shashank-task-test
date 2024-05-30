@@ -1,4 +1,4 @@
 repoPath: shashank-taliwal/shashank-task-test
 mainBranch: main
 gitIntegration: shashank_git_int
-artIntegration: rt_check
+artIntegration: test_nishith

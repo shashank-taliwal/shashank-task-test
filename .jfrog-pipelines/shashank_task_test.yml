@@ -60,7 +60,7 @@ pipelines:
             - echo "Task content" && ls -la $JFROG_STEP_WORKSPACE_DIR/$TASK_NAME
 
             # Run publish task
-            - task: jfrog/publish-task@v0.0.2
+            - task: jfrog/publish-task@v0.2.0
               id: publish-shashank-task-test
               input:
                 path: $JFROG_STEP_WORKSPACE_DIR/$TASK_NAME

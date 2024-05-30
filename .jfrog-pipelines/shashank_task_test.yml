@@ -61,7 +61,7 @@ pipelines:
 
             # Run publish task
             - task: jfrog/publish-task@v0.0.2
-              id: publish-jira-transition
+              id: publish-shashank-task-test
               input:
                 path: $JFROG_STEP_WORKSPACE_DIR/$TASK_NAME
                 targetRepository: $TASK_REPOSITORY

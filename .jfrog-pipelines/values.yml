@@ -1,4 +1,4 @@
 repoPath: shashank-taliwal/shashank-task-test
 mainBranch: main
-gitIntegration: snaperunnergit
+gitIntegration: shashank_git_int
 artIntegration: rt_check

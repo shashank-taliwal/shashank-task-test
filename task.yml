@@ -1,0 +1,8 @@
+name: shashank-task-test
+description: Testing the task
+source: github.com/shashank-taliwal/shashank-task-test
+labels:
+  - test
+  - task
+execution:
+  - node18 dist/index.js

@@ -1,0 +1,15 @@
+{
+  "name": "shashankt-task-test",
+  "version": "1.0.0",
+  "description": "This is a testing task",
+  "main": "src/index.js",
+  "scripts": {
+    "dist":  "ncc build src/index.js -o dist"
+  },
+  "author": "Shashank Taliwal",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/ncc": "^0.38.1",
+    "jfrog-pipelines-tasks": "^0.0.13"
+  }
+}

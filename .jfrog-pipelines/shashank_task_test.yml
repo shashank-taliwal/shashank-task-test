@@ -25,7 +25,6 @@ pipelines:
         readOnly:
           TASK_NAME: shashank_task_test
           TASK_VERSION: 0.0.${run_number}
-          TASK_REPOSITORY: pipelines-tasks-local
           RESOLVE_REPO: npm-virtual
     steps:
       - name: build_and_publish_task
